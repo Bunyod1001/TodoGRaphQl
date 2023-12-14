@@ -1,0 +1,26 @@
+{
+  "name": "todograpqhql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "module": "commonjs",
+  "scripts": {
+    "dev": "nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.8.1",
+    "pg": "^8.11.3",
+    "s": "^1.0.0",
+    "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  }
+}
